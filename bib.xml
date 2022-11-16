@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <biblio>
-	<titre>Perfectionnemnt PHP</titre>
-	<auteur>Mohamed Amine MEZGHICH</auteur>
-    <date>2020</date>
+    <livre>
+        <titre>Perfectionnemnt PHP</titre>
+	    <auteur>Mohamed Amine MEZGHICH</auteur>
+        <date>Novembre 2022</date>
+    </livre>
+
+    <livre>
+        <titre>HTML CSS JS</titre>
+	    <auteur>Mohamed Amine MEZGHICH</auteur>
+        <date>Octobre 2022</date>
+    </livre>
+
+    <livre>
+        <titre>Symfony</titre>
+	    <auteur>Aymen Sellaouti</auteur>
+        <date>Novembre 2022</date>
+    </livre>
+	
 </biblio>
