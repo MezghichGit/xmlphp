@@ -24,12 +24,25 @@ echo $xml->livre[2]->titre;
 echo $xml->livre[2]->auteur;
 echo $xml->livre[2]->date;
 */
-// avec le foreach
+// avec le foreach et element
 
-foreach($xml->livre as $cle=>$val)
+/*foreach($xml->livre as $cle=>$val)
 {
     static $i=1;
     echo "$cle $i : $val->titre de $val->auteur paru en $val->date<hr/>";
     $i++;
+}*/
+
+
+// avec le foreach + element +attributs
+foreach($xml->livre as $val)
+{
+
+    echo "$val->titre de $val->auteur paru en $val->date.<br/>";
+    foreach($val->attributes() as $key=>$value)
+    {   
+        echo $key." : ". $value."<br/>";
+    }
+    echo"<hr/>";
 }
 ?>

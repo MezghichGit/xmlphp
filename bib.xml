@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <biblio>
-    <livre>
+    <livre nbrjours="5" lieu="en ligne">
         <titre>Perfectionnemnt PHP</titre>
 	    <auteur>Mohamed Amine MEZGHICH</auteur>
         <date>Novembre 2022</date>
     </livre>
 
-    <livre>
+    <livre nbrjours="5" lieu="presentiel">
         <titre>HTML CSS JS</titre>
 	    <auteur>Mohamed Amine MEZGHICH</auteur>
         <date>Octobre 2022</date>
     </livre>
 
-    <livre>
+    <livre nbrjours="3" lieu="en ligne">
         <titre>Symfony</titre>
 	    <auteur>Aymen Sellaouti</auteur>
         <date>Novembre 2022</date>
