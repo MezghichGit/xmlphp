@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<voitures>
+    <voiture>
+        <marque>BMV</marque>
+	    <modele>X6</modele>
+		<immatriculation>12CD123</immatriculation>
+		<prix>20000</prix>
+    </voiture>
+
+    <voiture>
+        <marque>MERCEDES</marque>
+	    <modele>CLASSE A</modele>
+		<immatriculation>12CD1J23</immatriculation>
+		<prix>28000</prix>
+    </voiture>
+</voitures>
